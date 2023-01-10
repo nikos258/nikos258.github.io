@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.link-section {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links {
+    margin-left: 20px;
+    color: rgb(105, 105, 105);
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.links:visited {
+    color: rgb(105, 105, 105);
+    font-size: 35px;
+}
+
+.links:hover {
+    color: #272838;
+}
+
+.links:active {
+    color: #272838;
+}
+
+.heading {
+    display: inline-block;
+    margin-left: 15%;
+    margin-bottom: 100px;
+    width: 70%;
+    text-align: center;
+    background-color: #f0e6ef;
+    border-radius: 10px;
+}
+
+/* Για κάποιο λόγο δεν γίνονται align οι άκρες του available services
+ * με τις άκρες από τις κάρτες
+ */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.cards {
+    border-radius: 4%;
+    width: 400px;
+    height: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cards:hover {
+    box-shadow: rgba(100, 100, 111, 0.7) 0 7px 29px 0;
+    /* Οι σκιές εμφανίζονται πολύ ξαφνικά */
+}
+
+.card4 {
+    background-color: #f0e6ef;
+    position: relative;
+}
+
+.card4:before {
+    content: 'BEST SELLER';
+    position: absolute;
+    top: -20px;
+    left: -60px;
+    font-weight: 700;
+    background-color: #967bb6;
+    border-radius: 3px;
+    padding: 3px 6px;
+}
+
+.card-title {
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.icon {
+    width: 65px;
+    height: 65px;
+    stroke: black;
+}
+
+.card-text {
+    font-weight: 200;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    color: rgb(90, 90, 90);
+}

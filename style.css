@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.link-section {
+    margin-top: 20px;
+    margin-bottom: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.links {
+    margin-left: 20px;
+    color: rgb(105, 105, 105);
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.links:visited {
+    color: rgb(105, 105, 105);
+    font-size: 35px;
+}
+
+.links:hover {
+    color: #272838;
+}
+
+.links:active {
+    color: #272838;
+}
+
+main {
+    margin: 200px auto;
+    margin-bottom: 300px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.person-heading {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.profession {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(105, 105, 105);
+    margin-bottom: 30px;
+}
+
+.person-description {
+    font-size: 20px;
+    color: rgb(105, 105, 105);
+    margin-bottom: 40px;
+}
+
+.contact-button {
+    position: absolute;
+    top: 700px;
+    margin-left: 600px;
+    padding: 12px;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    background-color: blueviolet;
+    border-radius: 12px;
+    border-color: blueviolet;
+}
+
+.contact-button:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
+.img-container {
+    display: inline-block;
+}
+
+img {
+    border-radius: 10%;
+}
+
+.container {
+    width: 1300px;
+    margin: 100px auto;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(143, 143, 143);
+    font-size: 22px;
+}
